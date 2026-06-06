@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Credit Card Approval Narrative</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+3:400,600,700,800">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main class="page-shell">
+    <section class="intro-card">
+      <p class="eyebrow">Narrative D3 Visualization</p>
+      <h1>Credit card approvals rise with applicant age in this anonymized dataset</h1>
+      <p class="lede">
+        This static lollipop chart compares approval rates across age groups. The story is not that age alone causes approval decisions;
+        instead, the chart shows that in this dataset, older applicant groups had noticeably higher approval rates than younger groups.
+      </p>
+    </section>
+
+    <section class="chart-card">
+      <div id="chart" aria-label="Static lollipop chart showing credit card approval rates by age group"></div>
+    </section>
+
+    <section class="source-card">
+      <p>
+        <strong>Data source:</strong> Credit Card Applications dataset from Kaggle, based on the anonymized Australian Credit Approval/Statlog data.
+        The uploaded CSV was cleaned and grouped into <code>data/credit_approval_by_age_cleaned.csv</code> for this visualization.
+      </p>
+      <p>
+        <strong>Design note:</strong> Because most variables are anonymized as A1–A14, this visualization uses only the readable age field and the approval class.
+      </p>
+    </section>
+  </main>
+
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+</html>
