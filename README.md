@@ -19,7 +19,7 @@ The chart highlights a steady increase in approval rates from the youngest age g
 
 ## Data Cleaning
 
-The original dataset was cleaned and grouped into age categories. Approval and denial counts were calculated for each age group, then converted into approval and denial percentages. The final D3 visualization loads the cleaned CSV file from the `data` folder.
+The original dataset was cleaned and grouped into age categories. Approval and denial counts were calculated for each age group, then converted into approval and denial percentages.
 
 ## Tools Used
 
