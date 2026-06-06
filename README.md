@@ -10,7 +10,8 @@ The main takeaway is that younger applicants in this dataset had lower approval 
 
 ## Visualization
 
-![Credit Card Approval Rates Visualization](visualization.png)
+<img width="662" height="318" alt="image" src="https://github.com/user-attachments/assets/14d75f8d-0c78-4941-aad6-eb7a152e00a8" />
+
 
 ## Narrative Focus
 
