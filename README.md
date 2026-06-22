@@ -1,5 +1,3 @@
-# OPTIONAL-EXTRA-CREDIT-Assignment-D3HW4
-
 # Credit Card Approval Rates by Age Group
 
 ## Project Description
